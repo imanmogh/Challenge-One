@@ -6,8 +6,8 @@ Optimized the code to be more accesssible for users
 
 ## Usage
 
-![alt text](assets/images/Screenshot-1.png)
-![alt text](assets/images/Screenshot-2.png)
+![ScreenShot](assets/images/Screenshot-1.png)
+![ScreenShot](assets/images/Screenshot-2.png)
 
 
 ## Credits
