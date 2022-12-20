@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* the header class helps style how the top of the website will
+look like */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,10 +20,6 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header div {
@@ -46,10 +44,13 @@ a {
     text-decoration: none;
 }
 
+/* Says what font size the paragraph will have */
 p {
     font-size: 16px;
 }
 
+/* The .hero styles and adds the main image at the top
+of the website right below the navigation bar */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +60,27 @@ p {
     background-position: center;
 }
 
+/* Moves the image to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Moves the image to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* This styles how the content will be viewed and since it is inline-block the content will be viewed horizontally */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This styles the benefits tab by saying what tyoe of font it has, where it is on the
+screen, and also the background color of it */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,6 +140,7 @@ p {
     max-width: 150px;
 }
 
+/* Styles the search engine optimization section of the webite */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +150,7 @@ p {
     color: #ffffff;
 }
 
+/* Styles the online reputation management section of the webite */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +160,7 @@ p {
     color: #ffffff;
 }
 
+/* Styles the social media marketing section of the webite */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,6 +197,7 @@ p {
     font-size: 36px;
 }
 
+/* Styles the footer of the website */
 .footer {
     padding: 30px;
     clear: both;
