@@ -22,7 +22,10 @@ look like */
     font-size: 48px;
 }
 
-.header div {
+/*
+Switched div to nav
+*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -30,11 +33,17 @@ look like */
     font-size: 20px;
 }
 
-.header div ul {
+/*
+Switched div to nav
+*/
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*
+Switched div to nav
+*/
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -72,8 +81,10 @@ of the website right below the navigation bar */
     margin-left: 25px;
 }
 
-/* This styles how the content will be viewed and since it is inline-block the content will be viewed horizontally */
-.content {
+/* This styles how the content will be viewed and since it is inline-block the content will be viewed horizontally 
+Took out the cntent class and changed into main element
+*/
+main{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
